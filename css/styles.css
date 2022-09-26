@@ -324,3 +324,69 @@ body {
     color: #00000060;
     margin: 10px 0 8px 0;
 }
+
+.footer{
+    background: #e5e5e5;
+    padding: 70px 0 78px 0;
+}
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__logo{
+    font-family: 'Ribeye', cursive;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    margin-bottom: 40px;
+}
+.footer__title{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.06em;
+}
+.footer__link{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.06em;
+    margin: 10px 0 20px 0;
+    display: block;
+}
+.footer__social{
+    display: flex;
+}
+.footer__social li:not(:first-child){
+    margin-left: 27px;
+}
+.footer__list li a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+}
+.footer__list li:not(:last-child){
+    margin-bottom: 20px;
+}
+.footer__subscribe-title{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    margin-bottom: 42px;
+}
+.footer-form{
+    width: 333px;
+    display: flex;
+    justify-content: space-between;
+}
+.input-email{
+    width: 195px;
+    border: 1px solid #00000010;
+    box-shadow: 0 0 10px 1px #00000010;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.footer__btn{
+    width: 103px;
+    padding: 10px 0;
+}
