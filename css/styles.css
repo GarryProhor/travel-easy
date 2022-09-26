@@ -69,12 +69,25 @@ body {
     max-width: 1145px;
     margin: 0 auto;
 }
+.header__container{
+    height: 51px;
+}
 
 .header-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: #fff;
+}
+.header-top.header-top__fixed{
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #235475;
+    transition: 0.2s;
 }
 
 .menu {
