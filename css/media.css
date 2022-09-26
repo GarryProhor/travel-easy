@@ -1,3 +1,12 @@
+@media(max-width: 1300px) {
+    .btn-slick-prev{
+        left: 27%;
+    }
+    .btn-slick-next{
+        right: 27%;
+    }
+}
+
 @media(max-width: 1200px) {
     .header{
         padding: 35px 10px 244px 10px;
@@ -12,6 +21,12 @@
     }
     .location-block:not(:last-child){
         margin-bottom: 20px;
+    }
+    .btn-slick-prev{
+        left: 23%;
+    }
+    .btn-slick-next{
+        right: 23%;
     }
 }
 @media(max-width: 980px) {
@@ -86,6 +101,12 @@
         width: 100%;
         font-size: 40px;
         line-height: 50px;
+    }
+    .slider{
+        padding: 0 10px 57px 10px;
+    }
+    .slick-dots li{
+        width: 35px;
     }
 }
 @media(max-width: 450px) {

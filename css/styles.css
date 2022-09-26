@@ -217,7 +217,7 @@ body {
     padding-bottom: 57px;
 }
 .slider-subtitle {
-    width: 656px;
+    max-width: 656px;
     margin: 0 auto 60px auto;
 }
 /*.sliders{*/
@@ -276,11 +276,11 @@ body {
 }
 .btn-slick-prev{
     bottom: -55px;
-    left: 32%;
+    left: 29%;
 }
 .btn-slick-next{
     bottom: -55px;
-    right: 32%;
+    right: 29%;
 }
 .slick-dots{
     position: absolute;
