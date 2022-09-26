@@ -55,6 +55,9 @@ body {
     line-height: 29px;
     color: #000000;
 }
+.owerlay{
+    overflow-y: hidden;
+}
 
 .header {
     background: rgba(0, 0, 0, 0.3) url("../images/main.jpg") no-repeat center;
@@ -89,12 +92,16 @@ body {
     line-height: 36px;
     letter-spacing: 0.06em;
 }
-.header-btn{
+.header-btn,
+.mobile-btn{
     display: block;
     width: 163px;
     padding: 14px 0 12px 0;
     text-align: center;
     transition: 0.3s;
+}
+.mobile-btn{
+    display: none;
 }
 .header-btn:hover{
     opacity: 0.8;
@@ -130,6 +137,39 @@ body {
     opacity: 0.8;
 }
 
+.mobile-menu{
+    display: none;
+    position: relative;
+    z-index: 4;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+}
+.mobile-menu span{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #c94538;
+    transition: all 0.5s ease;
+}
+.mobile-menu span:last-child{
+    bottom: 0;
+}
+.mobile-menu span:last-child.active,
+.mobile-menu span:first-child.active{
+    opacity: 0;
+}
+.mobile-menu span:nth-child(2),
+.mobile-menu span:nth-child(3){
+    top: 50%;
+}
+.mobile-menu span:nth-child(2).active{
+    transform: rotate(45deg);
+}
+.mobile-menu span:nth-child(3).active{
+    transform: rotate(-45deg);
+}
 
 .location{
     padding: 140px 0;
