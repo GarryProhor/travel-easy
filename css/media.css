@@ -28,9 +28,22 @@
     .btn-slick-next{
         right: 23%;
     }
+    .news{
+        padding: 140px 10px 143px 10px;
+    }
+    .news__wrapper{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 45px;
+    }
+    .footer{
+        padding: 70px 10px 70px 10px;
+    }
 }
 @media(max-width: 980px) {
-
+    .footer__wrapper > div{
+        width: 50%;
+    }
 }
 @media(max-width: 850px) {
     .nav{
@@ -84,9 +97,38 @@
     }
 }
 @media(max-width: 768px) {
+    .header-bottom-title{
+        width: 100%;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .location{
+        padding: 70px 20px;
+    }
 
     .location-subtitle{
         width: 95%;
+    }
+    .header-bottom-text{
+        width: 100%;
+    }
+    .news{
+        padding: 50px 10px 50px 10px;
+    }
+    .footer{
+        padding: 50px 10px 50px 10px;
+    }
+
+    .footer-form{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .input-email,
+    .footer__btn{
+        width: 95%;
+        margin: 0 auto;
     }
 }
 @media(max-width: 590px) {
@@ -97,17 +139,34 @@
     .header-bottom{
         margin-top: 100px;
     }
-    .header-bottom-title{
-        width: 100%;
-        font-size: 40px;
-        line-height: 50px;
-    }
+
     .slider{
         padding: 0 10px 57px 10px;
     }
     .slick-dots li{
         width: 35px;
     }
+    .news-subtitle{
+        width: 100%;
+    }
+    .news__left{
+        width: 100%;
+    }
+    .news__left img{
+        width: 100%;
+    }
+    .news__right{
+        width: 100%;
+    }
+    .news__right-wrapper{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 45px;
+    }
+    .footer__wrapper > div{
+        width: 100%;
+    }
+
 }
 @media(max-width: 450px) {
 

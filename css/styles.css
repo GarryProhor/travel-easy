@@ -372,6 +372,8 @@ body {
 .footer__wrapper{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
 }
 .footer__logo{
     font-family: 'Ribeye', cursive;
